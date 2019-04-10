@@ -1,16 +1,11 @@
-
 Sub AppAll()
 '
 ' AppInstall Macro
 '
 'Dim mypath
 Dim mypath As String
-
 mypath = ActiveWorkbook.Path
-
 'mypath = Environ("USERPROFILE") & "\Desktop"
-
-
 '
     'Sheets.Add After:=ActiveSheet
     Application.DisplayAlerts = False
@@ -18,7 +13,7 @@ mypath = ActiveWorkbook.Path
     '
     '-------------------------------------------- This is Lotto --------------------------------------------
     '
-    
+  
     
     Workbooks.Add
     ChDir mypath
